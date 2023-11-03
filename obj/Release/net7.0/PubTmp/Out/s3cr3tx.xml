@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>s3cr3tx</name>
+    </assembly>
+    <members>
+        <member name="F:s3cr3tx.Controllers.ValuesController._hostingEnvironment">
+            <summary>
+            Gets the Encrypted or Decrypted Text.
+            </summary>
+            <remarks>
+            curl -X "GET" https://localhost:7192/Values --header "accept: text/plain" --header "Email: sales@gratitech.com" --header "APIToken: wrxyw7HDm3vCv+KAugoKwrjLhsOHw6Nlw5AmecO94oCedlnCocOELFnCrGtUIcK/fsOQy4bDuuKAnVUETxLigKFTw5nLhsKrUFItMxfDgMOmFcONwrc8a8O4X8OFw5Ruwqo94oCZ" --header "AuthCode: w4Rrxb7DnRPCqDUAw6ljK8O9w4Zw4oCcNMOawqnDlcKzJR8zbsOlw7zDlFFKP1DCrRImdFVz4oCUw6nDggRSw45/KcKjw7dgYRd8GcK0xb7DlHrigLrCvMOvN1ZdSzo=" --header "EorD: E" --header "Input: Secr3tUs3rnameOrS3cr3tP@Ssw0rd" > output.text
+            </remarks>
+            <returns>The Encrypted or Decrypted Text.</returns>
+        </member>
+        <member name="M:s3cr3tx.Controllers.ValuesController.Post(s3cr3tx.Controllers.NewK)">
+            <summary>
+            Creates a new s3cr3tx API account.</summary>
+            <remarks>
+            Sample request:
+            
+                POST /Values
+                {        
+                  "email": "sales@gratitech.com",
+                  "pd": "abc123",
+                  "pd2": "abc123"        
+                }
+            </remarks>
+            <returns>The new s3cr3tx API Key and Auth Code for the submitted email address</returns>
+            <response code="200">Returns the newly created API Key and AuthCode</response>
+            <response code="400">If the item is null</response>
+        </member>
+        <member name="T:CertificateManager.Models.DistinguishedName">
+            <summary>
+            Certificate Distinguished Name
+            C and CN are REQUIRED
+            CN should be your DNS
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.DistinguishedName.Country">
+            <summary>
+            C= Country
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.DistinguishedName.StateProvince">
+            <summary>
+            ST = State or province
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.DistinguishedName.Locality">
+            <summary>
+            L= Locality
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.DistinguishedName.Organisation">
+            <summary>
+            O = organisation
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.DistinguishedName.OrganisationUnit">
+            <summary>
+            OU=Organisation Unit
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.DistinguishedName.CommonName">
+            <summary>
+             CN= Common name(DNS)
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.ECDsaConfiguration.KeySize">
+            <summary>
+            EC 256, 384
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.RsaConfiguration.KeySize">
+            <summary>
+            RSA 1024, 2048 or 4096
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.RsaConfiguration.RSASignaturePadding">
+            <summary>
+            RSASignaturePadding.Pkcs1, RSASignaturePadding.Pss
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.SubjectAlternativeName.DnsName">
+            <summary>
+            At least 1 is required, and must match your deployment
+            For example for local development, localhost 
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.SubjectAlternativeName.Email">
+            <summary>
+            optional
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.SubjectAlternativeName.IpAddress">
+            <summary>
+            optional
+            </summary>
+        </member>
+        <member name="P:CertificateManager.Models.SubjectAlternativeName.UserPrincipalName">
+            <summary>
+            optional
+            </summary>
+        </member>
+    </members>
+</doc>

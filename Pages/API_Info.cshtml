@@ -1,0 +1,85 @@
+﻿@page
+@model s3cr3tx.Pages.API_InfoModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "s3cretx API Info";
+}
+@section Login{
+    <partial name="_LoginPartial" />
+}
+<div class="text-center">
+    <center> <h1 class="display-4">Your s3cr3tx API Credentials are listed below</h1></center>
+    <form asp-page-handler="view" formaction="post">
+        <center>
+            <table>
+                <tr>
+                    <td align="right">
+                        <label id="lblEmail">Email: </label>
+                    </td>
+                    <td>
+                        @Model.S3Cr3Tx.Email
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblToken">API Key: </label>
+                    </td>
+                    <td>
+                        <textarea>@Model.S3Cr3Tx.Token</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblAuth">Auth Code: </label>
+                    </td>
+                    <td>
+                        <textarea>@Model.S3Cr3Tx.AuthCode</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblAuth">Private Key Certificate (PEM Format): </label>
+                    </td>
+                    <td>
+                        <textarea>@Model.S3Cr3Tx.PEMpri</textarea>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblAuth">Public Key Certificate (PEM Format): </label>
+                    </td>
+                    <td>
+                        <textarea>@Model.S3Cr3Tx.PEMpub</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblAuth8">Download a local s3cr3tx offline version and PEM Key: </label>
+                    </td>
+                    <td>
+                        <label id="lblPass">Please enter a Password for your download: </label><br/>
+                        <input id="txtEmail" asp-for="S3Cr3Tx.passcode" class="form-control" maxlength="256" />
+                        <span asp-validation-for="S3Cr3Tx.passcode" class="text-danger"></span>
+                        <br />
+                        <input type="submit" id="btnSubmit" disabled="disabled" value="Download" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblAuth">Use the following command to generate your own keys for use with the s3cr3tx local version: </label>
+                    </td>
+                    <td>
+                        
+                        <label id="lblAuth" style="background-color:grey">openssl req -newkey rsa:4096 -nodes -keyout s3cr3txKey.pem -x509 -days 365 -out s3cr3txCertificate.pem</label>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <br />
+    </form>
+</div>
+@section sitescripts{
+    <partial name="_SiteScriptsPartial" />
+}

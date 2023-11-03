@@ -1,0 +1,119 @@
+﻿@page
+@model s3cr3tx.Pages.RegisterModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "s3cr3tx Registration";
+
+}
+@section Members{
+    <partial name="_LoginRegisterPartial" />
+}
+<br/>
+<div class="text-center">
+    <center> <h1 class="display-6">Register with s3cr3tx:</h1></center><br/><p>
+    To use s3cr3tx and the s3cr3tx API to help you protect your secrets in code,<br/> please register below:<br/>
+    <form method="post" formaction="post" asp-page-handler="view">
+        <!--asp-page-handler="view" formaction="post">-->
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <center>
+            <table>
+                <tr>
+                    <td align="right">
+                        &nbsp;
+                    </td>
+                    <td><p style="color:blue">@Model._output</p></td> <!--<label id="lblOutput" asp-for="_member.message"></label></td>-->
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblEmail">First Name: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input id="txtEmail" asp-for="_member.FirstName" class="form-control" maxlength="256" />
+                        <span asp-validation-for="_member.FirstName" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblToken">Last Name:&nbsp;</label>
+                    </td>
+                    <td>
+                        <input id="txtToken" maxlength="256" asp-for="_member.LastName" class="form-control" />
+                        <span asp-validation-for="_member.LastName" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblToken">Email: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input id="txtToken" maxlength="256" asp-for="_member.email" class="form-control" />
+                        <span asp-validation-for="_member.email" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblAuth">Password:&nbsp;</label>
+                    </td>
+                    <td>
+                        <input id="txtAuthCode" maxlength="256" asp-for="_member.Code" class="form-control" />
+                        <span asp-validation-for="_member.Code" class="text-danger"></span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblDirection">Confirm Password: &nbsp;</label>
+                    </td>
+                    <td>
+                        <input id="txtDirection" asp-for="_member.ConfirmCode" maxlength="256" class="form-control" />
+                        <span asp-validation-for="_member.ConfirmCode" class="text-danger"></span>
+                    </td>
+                </tr>
+                @*<tr>
+                    <td align="right">
+                        <label id="lblDirection">Mobile Phone (Optional): &nbsp;</label>
+                    </td>
+                    <td>
+                        <input id="txtDirection" asp-for="_member.mobile" maxlength="256" class="form-control" />
+                            <!--<span asp-validation-for="_member.mobile" class="text-danger"></span>-->
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label id="lblDirection">Mobile Carrier (Optional): &nbsp; </label>
+                    </td>
+                    <td>
+                        @Html.DropDownList("_member.MobileCarrier", Models.helpers.PossibleCarriers(Model._member.MobileCarrier), new { id = "CreditDetails_ExpirationMonth", @class = "form-control", style = "width:70px;" })
+                        <span asp-validation-for="_member.MobileCarrier" class="text-danger"></span>
+                    </td>
+                </tr>*@
+                <tr>
+                    <td align="right">
+                        <label id="lblInput">&nbsp;</label>
+                    </td>
+                    <td>
+                            <input id="btnSubmit" type="submit" class="form-control" disabled="disabled" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        &nbsp;
+                    </td>
+                    <td><p style='color:blue'>@Model._output</p></td>
+                </tr>
+            </table>
+        </center>
+        <br />
+    </form>
+    </p>
+</div>
+@section examples{
+    <partial name="_ExamplesPartial" />
+}
+@section sitescripts{
+    <partial name="_SiteScriptsPartial" />
+}
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

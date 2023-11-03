@@ -1,0 +1,81 @@
+﻿@page
+@model FresetModel
+@{
+    ViewData["Title"] = "Thank you for confirming your s3cr3tx account";
+}
+@section Members{
+    <partial name="_LoginRegisterPartial" />
+}
+<h1>Please enter the details requested and click submit below</h1>
+<form asp-page-handler="view" formaction="post">
+    <center>
+        <table>
+            <tr>
+                <td align="right">
+                    <label id="lblOutput">&nbsp;</label>
+                </td>
+                <td>
+                    @Model._output
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label id="lblPWord">New Password: </label>
+                </td>
+                <td>
+                    <input id="txtPWord" asp-for="fresetCurrent.member_code" maxlength="256" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label id="lblPWord">Confirm New Password: </label>
+                </td>
+                <td>
+                    <input id="txtPWord" asp-for="fresetCurrent.member_code2" maxlength="256" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <input id="txtEmail" asp-for="fresetCurrent.email" hidden="hidden"/>   </td>
+                <td>
+                    <input id="txtPWord" asp-for="fresetCurrent.session_expires" hidden="hidden" maxlength="256" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label id="lblInput">&nbsp;</label>
+                </td>
+                <td>
+                    <input type="submit" id="btnSubmit" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label id="lblPWord">&nbsp; </label>
+                </td>
+                <td>
+                    <input id="txtPWord" asp-for="fresetCurrent.id" maxlength="256" hidden="hidden"/>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label id="lblOutput2">&nbsp;</label>
+                </td>
+                <td>
+                    @Model._output
+                </td>
+            </tr>
+        </table>
+    </center>
+</form>
+
+<center>
+    <h2><a href="https://s3cr3tx.com/Login">sign-in</a></h2>
+</center>
+
+@section sitescripts{
+    <partial name="_SiteScriptsPartial" />
+}
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

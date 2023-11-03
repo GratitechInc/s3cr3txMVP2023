@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = s3cr3tx
+build_property.RootNamespace = s3cr3tx
+build_property.ProjectDir = C:\Users\pk\Downloads\s3cr3tx-main-V2-main\s3cr3tx-main-V2-main\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\pk\Downloads\s3cr3tx-main-V2-main\s3cr3tx-main-V2-main
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = aW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/API_Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQVBJX0luZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Forgot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ290LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Freset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJlc2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Shared/_ExamplesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9FeGFtcGxlc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Shared/_LoginRegisterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblJlZ2lzdGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Shared/_SiteScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TaXRlU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/Validate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmFsaWRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/Home/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pk/Downloads/s3cr3tx-main-V2-main/s3cr3tx-main-V2-main/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
